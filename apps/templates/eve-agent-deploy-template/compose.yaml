@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+      args:
+        EVE_AGENT_CONFIG_URL: ${EVE_AGENT_CONFIG_URL}
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.local

@@ -1,0 +1,14 @@
+node_modules
+.env*
+!.env.example
+.dev.vars
+.eve
+.vercel
+.wrangler
+.workflow-data
+.next
+.open-next
+.output
+.nitro
+dist
+*.tsbuildinfo
